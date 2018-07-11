@@ -3,19 +3,13 @@
   main( role="main" )
     .container
       .row
-        .col-md-12
-          .hello
-            | {{ msg }}
+       .col-md-12
+         | HabourFront
 </template>
 
 <script>
 export default {
-  name: "home",
-  data() {
-    return {
-      msg: "Welcome to Your App"
-    };
-  }
+  name: "habourfront"
 };
 </script>
 
