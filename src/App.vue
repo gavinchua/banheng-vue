@@ -7,18 +7,18 @@
 </template>
 
 <script>
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 

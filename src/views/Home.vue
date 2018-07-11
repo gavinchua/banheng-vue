@@ -10,10 +10,10 @@
 
 <script>
 export default {
-  name: "home",
+  name: 'Home',
   data() {
     return {
-      msg: "Welcome to Your App"
+      msg: "Welcome to Your App",
     };
   }
 };
