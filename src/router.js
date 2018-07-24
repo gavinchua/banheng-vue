@@ -1,12 +1,13 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import Home from '../views/Home.vue';
-import HabourFront from '../views/HabourFront.vue';
+import Home from './views/Home.vue';
+import HabourFront from './views/HabourFront.vue';
 
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',

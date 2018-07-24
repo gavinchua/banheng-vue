@@ -6,7 +6,7 @@
         .col-md-12
           b-navbar( toggleable="md" type="light" )
             b-navbar-brand( to="/" )
-              | BanHeng
+              | Logo
             b-navbar-toggle( target="nav_collapse" )
             b-collapse#nav_collapse( is-nav )
               b-navbar-nav.ml-auto

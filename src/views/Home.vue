@@ -4,18 +4,20 @@
     .container
       .row
         .col-md-12
-          .hello
-            | {{ msg }}
+          nav
+            ul
+              li
+                b-link( to="/HabourFront" )
+                  | @HabourFront
+      .row
+        .col-md-12
+          h4
+            | Promotions
 </template>
 
 <script>
 export default {
   name: 'Home',
-  data() {
-    return {
-      msg: "Welcome to Your App",
-    };
-  }
 };
 </script>
 
